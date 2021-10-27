@@ -1,0 +1,85 @@
+/* main - see media queries below */
+
+body{
+	color: #665544;
+	background-color: tan;
+	padding: 20px;
+}
+
+#wrapper{
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+
+
+.header{
+	padding: 20px;
+	background-color:#B2F3EE;
+}
+
+
+
+h1{
+	text-align:center;
+}
+
+
+
+.sidebar{
+	width: 20%;
+	float: left;
+	background-color: #61ADA7;
+	height: 500px;
+}
+
+
+
+.main{
+	width: 80%;
+	float: right;
+	height: 200px;
+	background-image: url("avatar.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+img{
+	float: left;
+	margin: 10px;
+}
+
+
+
+@media screen and (max-width: 980px) {
+#wrapper {
+	width: 95%;
+}
+.main {
+	width: 65%;
+}
+.sidebar {
+	width: 30%;
+}
+}
+@media screen and (max-width: 700px) {
+.main {
+	width: auto;
+	float: none;
+
+
+
+}
+.sidebar {
+	width: auto;
+	float: none;
+	height: 100px;
+
+}
+
+
+.sml{
+	width: 150px;
+	height: 150px;
+
+}
